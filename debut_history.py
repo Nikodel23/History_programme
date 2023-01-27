@@ -1,12 +1,18 @@
+from data import *
+
 def nom_de_utilisateur_base():
-    nom_de_utilisateur= input("Quelle est le nom de votre héro?")
+    nom_de_utilisateur= input("Quelle est le nom de votre hero?")
     return nom_de_utilisateur
     
+def ask_for_age ():
+    n = input("Quelle age avez vous ?  ")
+    return n
+    
+def user_too_young (n):
+    return n in young_ages
 
 def age_de_utilisateur_base():
-    age_de_utilisateur= input("Quelle age avez vous?"):
-if  age_de_utilisateur<12
-    print("Ce jeu comporte un contenu choquant.")
-        exit()
-    age_de_utilisateur>12
-   pass
+    age = ask_for_age ()
+    while user_too_young (age):
+        age = ask_for_age ()
+        pass
