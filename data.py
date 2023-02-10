@@ -15,4 +15,10 @@ correct_ages = \
                      89,90,91,92,93,94,95,96,97,98,99, \
                       100,101,102,103,104,105,106,107,108,110, \
                           111,112,113,114,115,116,117,118,119,120]
-                    
+        
+text_for_clients = ("Bonjour, vous avez le choix entre ces 3 hisoires")
+
+
+intro_texte_history_one = ("Bievenu soldat, tu te trouves en ce moment sur un champ de bataille dans une plaine et vous vous battez contre des allemands. Malheuresement pendant ton sommeil une ogive a explosé dans ton camp. Tu as miraculuseument survecu mais tes coequipier son mort.")
+intro_texte_history_two = ("Bienvenu chers detective, en ce moment tu enquetes sur une mort soudaine d'une victime sous le nom de Miguel .Cette mort est arrivé dans la ville d'acôté. Vous étes le seul detective dans les parages et malgré votre peu d'experience les habitants comte sur vous.") 
+intro_texte_history_three = ("Bienvenu, tu es étudiant dans une école de commerce. Tu as ete accepté et c'est ton premier jour de cours. Tu viens de te lever et tu te prepares pour aller en cours.")
